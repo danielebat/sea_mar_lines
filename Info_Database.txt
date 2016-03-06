@@ -1,0 +1,1 @@
+Ho inserito alcune prenotazioni già eseguite nella tabella prenotazioni e 8 viaggi nella tabella "viaggi" per i giorni 30 aprile 2013 e 5 maggio 2013.

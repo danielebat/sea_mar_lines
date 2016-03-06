@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+ 
+ <html>
+	<head>
+		<meta name="description" content="SeaMar Lines, la compagna di trasporto marittimo">
+		<meta name="author" lang="it" content="Daniele Battista">
+		<meta name="keywords" lang="it" content="mare, nave, viaggio, trasporto marittimo, trasporto">
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>SeaMar Lines: Trasporti Marittimi</title>
+		<link rel="stylesheet" href="video.css" type="text/css">
+		<script type="text/javascript" src="./execution.js"></script>
+		<script type="text/javascript" src="./checks.js"></script>
+	</head>
+	<body onload="create_select(2)">
+		<div id ="top">
+			<h1>
+				SeaMar Lines
+			</h1>
+		    <h2>
+				Home
+			</h2>
+		    <img id="logo" src="./images/logo.png" alt="logo" usemap="#logo">
+			<map id="ilogo" name="logo">
+			<area shape="circle" alt="Logo" coords="90,90,93" href="./index.html">
+			</map>
+			<div id="bar">
+				<a href="./features.html#compagnia">Compagnia</a>
+				<a href="./features.html#storia">Storia</a>
+				<a href="./features.html#servizi">Servizi</a>
+				<a href="./features.html#sistemazioni">Sistemazioni</a>
+				<a href="./features.html#condizioni">Condizioni di Viaggio</a>
+			</div>
+		</div>
+		<div id="part">
+			<div id="left">
+				<form action="./php/research.php" method="get" id="first">
+					<h1>Scegli il viaggio che preferisci:</h1>
+					<p class="research">Partenza:</p>
+					<div>
+						<select class="selection" name="departure" id="departure">
+							<option>Genova</option>
+							<option>Palermo</option>
+							<option>Barcellona</option>
+							<option>Tunisi</option>
+						</select>
+						<p class="research">Arrivo:</p>
+						<select class="selection" name="destination" id="destination">
+							<option>Genova</option>
+							<option>Palermo</option>
+							<option>Barcellona</option>
+							<option>Tunisi</option>
+						</select>
+						<p class="research">Data:</p>
+					</div>
+					<div>
+						<select name="day" class="date">		
+						</select>
+						<select name="month" class="date">	
+						</select>
+						<select name="year" class="date">	
+						</select>
+						<button type="button" id="find" onclick="checkplaces()">Cerca</button>
+					</div>
+				</form>
+				<form method="post" action="./php/delete.php" id="first_a">
+					<div>
+						<p>Se invece desideri vedere o cancellare una tua prenotazione, ti preghiamo di inserire la password associata al tuo posto 
+						nel campo in basso e proseguire.
+						</p>
+						<input maxlength="5" size="5" type="text" name="pwd" id="pwd_cancel" >
+						<button type="submit" id="to_cancel">Procedi</button>
+					</div>			
+				</form>	
+			</div>
+			<div id="content">
+				<h1>Manuale Utente</h1>
+				<p class="manual">Benvenuti nel sito della Compagnia di Navigazione SeaMar Lines. Il sito permette di poter prenotare uno o pi&ugrave; posti a bordo 
+					di una nave con pochi click e in maniera abbastanza intuitiva. L&#39; utente sceglie citt&agrave; di partenza, arrivo e la data attraverso 
+					il modulo a sinistra e, se ha gi&agrave; effettuato una prenotazione, pu&ograve; visualizzarla inserendo la password associota ad essa 
+					attraverso il modulo in basso a sinistra.
+					
+					Effettuata la ricerca, visualizzer&agrave; , se ce ne sono, viaggi disponibili e ne sceglier&agrave; uno. Successivamente potr&agrave; scegliere il 
+					proprio posto a sedere o una sistemazione in camera o perfino entrambe, aggiungendo opzioni come auto o moto a bordo qualora 
+					ne abbia necessit&agrave; , tenendo d&#39; occhio il prezzo che si aggiorner&agrave; ad ogni azione dell&#39; utente.
+					
+					Successivamente sar&agrave; necessario riempire il modulo presente in basso per fornire dati dell&#39; utente alla compagnia e confermare 
+					la prenotazione. L'utente avr&agrave; cos&igrave; un riepilogo del viaggio, dei suoi dati e di tutte le informazioni relative alla sua
+					prenotazione.
+					
+					Attraverso la barra al di sotto del logo &eacute; possibile navigare tra caratteristiche tecniche qualitative della Compagnia.
+				</p>
+			</div>
+			<div id="end">
+				<img src="./images/athara1.jpg" alt="Traghetto Athara" class="ships">
+				<img src="./images/aurelia1.jpg" alt="Traghetto Aurelia" class="ships">
+				<img src="./images/bithia1.jpg" alt="Traghetto Bithia" class="ships">
+				<img src="./images/sharden1.jpg" alt="Traghetto Sharden" class="ships">
+				<div id="fleet1">
+				<p class="shiplaces">La Nostra Flotta</p>
+				<p>In alto &egrave; possibile visionare alcune delle nostre
+				navi che ogni giorno trasportano passeggeri verso le
+				le pi&ugrave; belle citt&agrave; del Mediterraneo. Athara, Aurelia,
+				Bithia e Sharden sono alcuni dei nomi delle nostre
+				imbarcazioni, le quali offrono a tutti i viaggiatori
+				un mare di servizi e un viaggio confortevole.</p>
+				</div>
+				<div id="fleet2">
+				<p class="shiplaces">Le Nostre Destinazioni</p>
+				<p>In basso sono mostrate le pi&ugrave; suggestive citt&agrave; che
+				si affacciano sul Mar Mediterraneo collegate dalle nostre
+				linee. Abbiamo portato avanti un progetto che ci consentisse
+				di unire pi&ugrave; nazioni e anche pi&ugrave; continenti, in modo da 
+				avere un connubio tra popoli e tradizioni molto
+				significativo per noi.</p>
+				</div>
+				<img src="./images/tunisi1.jpg" alt="Tunisi" class="ships">
+				<img src="./images/palermo.jpg" alt="Palermo" class="ships">
+				<img src="./images/barcellona1.jpg" alt="Barcellona" class="ships">
+				<img src="./images/genova.jpg" alt="Genova" class="ships">
+			</div>
+		</div>
+	</body>
+</html>

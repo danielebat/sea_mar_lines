@@ -1,0 +1,692 @@
+
+
+body
+	{
+        background-color: #EBFFFF;
+		margin-top:6px;
+		margin-bottom:6px;
+		margin-left:40px;
+		margin-right:40px;
+		min-width:1269px;
+    }
+	
+#top h1 
+	{
+		font-family:"Georgia", serif;
+		letter-spacing:1px;
+		position:relative;
+		font-size: 30px;
+		top: 25px;
+	}
+	
+#top h2
+	{
+		font-family:"Helvetica", san-serif;
+		font-size:23px;
+		letter-spacing:1px;
+		position:relative;
+		top: 43px;
+	
+	}	
+
+
+#top
+	{
+        position:relative;
+		background-color: #B247FF;
+		height:250px;
+		width:100%;
+		text-align:center;
+        color:#8B0A50;
+		border-bottom-style: solid;
+		border-left-style: solid;
+		border-right-style: solid;
+		border-color: #66CCFF;
+		line-height:155%;
+		top: -20px;
+		
+    }
+
+#logo
+	{
+        position: absolute;
+		left:20px;
+		top:20px;
+		width:180px;
+		display:inline;
+		border: none;
+    }
+	
+#bar{
+		position: relative;
+		top: 120px;
+		background-color: #66CCFF;
+		width: 90%;
+		margin: auto;
+		}
+		
+#bar a
+	{
+		padding: 0px 40px;
+		border-left-style:dotted;
+		border-right-style:dotted;
+		border-color: black;
+		}
+	
+#part
+	{
+		position:relative;
+		border-style: solid;
+		border-width: 3px;
+		border-color: #66CCFF;
+		margin-bottom: 20px;
+		height: 768px;
+		width: 80%;
+		left: 10%;
+		}
+
+#left
+	{
+		position:relative;
+		height: 350px;
+		width: 30%;
+		display:inline-block;
+		}
+
+a:link{ color: #8B0A50;}
+a:active{ color: #0033CC;}
+a:visited{ color: #FFFFFF;}
+		
+#find
+	{
+		position: relative;
+		float: right;
+		right: 18px;
+		top: -5px;
+		}
+		
+#first_a p{
+	text-align: justify;
+	font-family:"Calibri", serif;
+	font-size:15px;
+	width: 270px;
+	margin-left: 15px;
+	}
+	
+#first_a input{
+	margin-left: 15px;
+	}
+
+#content
+	{
+		position: relative;
+		border-left-style: solid;
+		border-color:#66CCFF;
+		height: 350px;
+		width:68%;
+		float: right;
+		}
+		
+#content h1{
+	position:relative;
+	font-size:20px;
+	border-color: #B247FF;
+	border-bottom-style: solid;
+	margin: 10px;	
+	}
+
+#content p{	
+	font-family:"Helvetica", san-serif;
+	text-align: justify;
+	margin: 10px;
+	}
+		
+#end
+	{
+		position: relative;
+		border-top-style: solid;
+		border-color: #66CCFF;
+		height: 147px;
+		}
+		
+#fleet1
+	{
+		position:relative;
+		text-align: justify;
+		width: 48%;
+		float: left;
+		left: 2px;
+		height:175px;
+	}
+		
+#fleet1 p{
+	font-family: "Calibri", sans-serif;
+	}	
+		
+#fleet2
+	{
+		position:relative;
+		text-align: justify;
+		width: 48%;
+		float: right;
+		right: 2px;
+		height: 175px;
+		}
+
+#fleet2 p{
+	font-family: "Calibri", sans-serif;
+	}
+		
+#left h1{
+	font-family:"Georgia", serif;
+	position:relative;
+	font-size:20px;
+	text-align: center;
+	}
+		
+.research
+	{
+		text-align: left;
+		font-family:"Helvetica", serif;
+		font-size:15px;
+		width: 270px;
+		border-bottom-color: #66CCFF;
+		border-bottom-style: solid;
+		margin-left: 15px;
+		}
+
+.selection{
+	position: relative;
+	float: right;
+	top: -40px;
+	right: 20px;
+	margin-left: 5px;
+}
+
+.date{
+	position: relative;
+	top: -42px;
+	left: 75px;
+	margin-left: 5px;
+}
+.ships
+	{
+		position: relative;
+		float: left;
+		width: 25%;
+		height: 120px;
+		}
+		
+.shiplaces
+	{
+		text-align: center;
+		font-family: "Calibri", sans-serif;
+		font-size: 16px;
+		}
+	
+#to_cancel{
+	position: relative;
+	float: right;
+	right: 18px;
+	}
+		
+/*features.html*/
+
+#heart{
+	position: relative;
+	width: 90%;
+	left: 5%; 
+	}
+
+#heart h1{
+	border-color: #66CCFF;
+	border-bottom-style: solid;
+	}
+	
+#heart p{
+	text-align: justify;
+	font-family: "Calibri", sans-serif;
+	}
+	
+.left{
+	text-align: left;
+	}
+
+.right{
+	text-align: right;
+	}
+	
+#heart h2{
+	border-color: #B247FF;
+	border-bottom-style: solid;
+	top: 10px;
+	}
+	
+#servizi p{
+	width: 230px;
+	}
+	
+.services{
+	position: relative;
+	float: left;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 3%;
+	width: 19%
+}
+
+.recpt{
+	width: 230px;
+	height: 125px;
+}
+
+.settlement{
+	position: relative;
+	float: left;
+	width: 27%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 3%;
+	}
+
+.settlement p{
+	width: 315px;
+	}
+	
+.settlement img{
+	width: 315px;
+	height: 240px;
+	}
+
+/*research.php*/
+
+.result{
+	width: 90%;
+	left: 5%;
+	border-style: solid;
+	border-color: #66CCFF;
+	text-align: center;
+	position: relative;
+	}
+		
+.result thead{
+	background-color: #B247FF;
+	}
+	
+.result tbody{
+	font-family:"Helvetica", san-serif; 
+	}
+	
+.result tr{
+	height: 30px;
+}
+	
+.error{
+	font-family:"Helvetica", san-serif;
+	text-align: center;
+	}
+		
+#button_3{
+	position: relative;
+	float:right;
+	top: 50px;
+	right: 5%;
+	}
+	
+/*place.php*/
+
+#health{
+	width: 1006px;
+	position: relative;
+	float: left;
+	}
+
+#right{
+	width: 257px;
+	position: relative;
+	float: right;
+	height: 567px;
+	}
+
+#presentation{
+	position: relative;
+	float: left;
+	width: 1006px;
+	}
+	
+#presentation h1{
+	
+	border-color: #66CCFF;
+	border-bottom-style: solid;
+	}
+
+#presentation p{
+	text-align: justify;
+	font-family:"Helvetica", serif;
+	font-size: 15px;
+	}
+	
+#left_part{
+	position: relative;
+	float: left;
+	width: 176px;
+	height: 412px;
+	}
+
+#travel_selected{
+	position: relative;
+	float: right; 
+	height: 225px;
+	width: 200px;	
+	}
+	
+#travel_selected h1{
+	font-family:"Georgia", serif;
+	position:relative;
+	font-size:20px;
+	text-align: left;
+	border-color: #66CCFF;
+	border-bottom-style: solid;
+	}
+	
+.done{
+	position: relative;
+	float: left;
+	font-family: "Helvetica", san-serif;
+	font-size: 13px;
+	margin: 5px;
+	height: 20px;
+	width: 100px;	
+	}
+	
+.undone{
+	position: relative;
+	float: right;
+	font-family: "Helvetica", san-serif;
+	font-size: 13px;
+	margin: 5px;
+	height: 20px;	
+	width: 70px;
+	}
+
+.pianta{
+	position:relative;
+	float: left;
+	width: 824px;
+	height: 200px;
+	border-color: #66CCFF;
+	border-style: solid;
+	background-color: #E0FFE0;
+	}
+	
+.pianta h1{
+		font-family:"Georgia", serif;
+		position:relative;
+		font-size:20px;
+		text-align: left;
+		border-color: #B247FF;
+		border-bottom-style: solid;
+		width: 170px;
+
+	}
+
+.posto{
+	position:relative;
+	float: left;
+	margin-right: 4px;
+	z-index: 1;
+	top: -135px;
+	left: 255px;
+	}
+	
+.letto{
+	position:relative;
+	float: left;
+	height: 5px;
+	margin-right: 2px;
+	z-index: 1;
+	top: -133px;
+	left: 255px;
+	}
+	
+.letto_1{
+	position:relative;
+	float: left;
+	margin-right: 2px;
+	height: 5px;
+	z-index: 1;
+	top: -137px;
+	left: 255px;
+	}
+
+.boat{
+	position: relative;
+	top: -10px;
+	z-index: 0;
+	left: 15%;
+	}
+	
+#option{
+	position: relative;
+	float: right;
+	width: 200px;
+	top: 20px;
+	}
+	
+#option p{
+	margin-left: 5px;
+	font-family: "Calibri", san-serif;
+	font-size: 15px;
+	}
+	
+#option h1{
+	font-family:"Georgia", serif;
+	position:relative;
+	font-size:20px;
+	text-align: left;
+	border-color: #66CCFF;
+	border-bottom-style: solid;
+	}
+	
+#option input{
+	margin-left: 5px; 
+	}
+	
+#legenda{
+	position: relative;
+	top: 80px;
+	width: 170px;
+	border-color: #66CCFF;
+	border-style: solid;
+	background-color: #E0FFE0;
+	z-index: 2;
+	}
+	
+#legenda h1{
+	font-family:"Georgia", serif;
+	position:relative;
+	font-size:20px;
+	text-align: center;
+	}	
+	
+#price {
+	position: relative;
+	float: right;
+	width: 200px;
+	height: 40px;
+	top: 60px;
+}	
+
+#price h1{
+	font-family:"Georgia", serif;
+	position:relative;
+	font-size:20px;
+	text-align: left;
+	border-color: #66CCFF;
+	border-bottom-style: solid;
+	}
+	
+#price input{
+	position:relative;
+	float: right;
+	top: -42px;
+}
+
+#prenotazione{
+	position: relative;
+	float: left;
+	top: 20px;
+	margin-bottom: 40px;
+	display: none;
+	}
+	
+#prenotazione h1{
+	font-family:"Georgia", serif;
+	position:relative;
+	font-size:20px;
+	border-color: #66CCFF;
+	border-bottom-style: solid;
+	}	
+	
+#prenotazione p{
+	margin-left: 10px;
+	height: 20px;
+	}
+
+.row{
+	width: 1006px;
+	height: 50px;
+	}
+	
+.pren{
+	position: relative;
+	float: left;
+	width: 160px;
+	}
+	
+.pren_1{
+	position: relative;
+	float: left;
+	width: 220px;
+	}
+	
+#prenotazione input{
+	position: relative;
+	float: left;
+	top: -10px;
+	left: 5px;
+	}
+
+#prenotazione select{
+	position: relative;
+	top: -10px;
+	margin-left: 2px;
+	left: 5px;
+	}
+	
+#full{
+	position: relative;
+	float: right;
+	top: 114px;
+	display: none;
+	}
+
+/*delete.php*/
+
+#delete{
+	min-width: 200px;	
+	}
+
+#ship_delete{
+	width: 300px;
+	}
+
+#ship_delete h1{
+	font-family:"Georgia", serif;
+	position:relative;
+	font-size:25px;
+	border-color: #66CCFF;
+	border-bottom-style: solid;
+	}
+	
+#ship_delete h2{
+	position:relative;
+	font-size:20px;
+	border-color: #B247FF;
+	border-bottom-style: solid;	
+	top: 10px;
+	}
+
+#chosen{
+	position: relative;
+	float: left; 
+	height: 225px;
+	width: 200px;	
+	}
+	
+/*booking.php*/
+
+
+
+#booked h1{
+	font-family:"Georgia", serif;
+	position:relative;
+	font-size:25px;
+	border-color: #66CCFF;
+	border-bottom-style: solid;	
+	}
+	
+#booked h2{
+	position:relative;
+	font-size:17px;
+	border-color: #B247FF;
+	border-bottom-style: solid;	
+	top: 10px;
+	}
+
+#voyage{
+	position: relative;
+	float: left; 
+	height: 325px;
+	width: 300px;	
+	}
+	
+#person{
+	position: relative;
+	float: left; 
+	left: 20px;
+	height: 300px;
+	width: 300px;
+	}
+	
+#bookings{
+	position: relative;
+	float: left; 
+	left: 40px;
+	height: 300px;
+	width: 300px;
+	}		
+
+.undone_2{
+	position: relative;
+	float: right;
+	font-family: "Helvetica", san-serif;
+	font-size: 15px;
+	margin: 5px;
+	height: 20px;	
+	width: 140px;
+	}
+	
+.done_2{
+	position: relative;
+	float: left;
+	font-family: "Helvetica", san-serif;
+	font-size: 15px;
+	margin: 5px;
+	height: 20px;	
+	width: 140px;
+	}
+	
+#message{
+	position: relative;
+	}
